@@ -5,7 +5,7 @@ import taskRouter from './router/task.js'
 
 
 const app = new express()
-const port = process.env
+const port = process.env.PORT
 
 
 
