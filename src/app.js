@@ -20,3 +20,4 @@ app.listen(port,()=>{
     console.log('server is up')
 })
 
+console.log("MongoDB URL:", process.env.MONGODB_URL);
